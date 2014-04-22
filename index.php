@@ -19,10 +19,10 @@ if($_POST['formSubmit'] == "Submit")
 		require_once('TwitterAPIExchange.php');
 		//TWITTER APP CONFIG
 		$settings = array(
-		    'oauth_access_token' => "486702273-V26qQf55v3X08MWsFQAG6Kg01sbW5RfPgwPTlXeL",
-		    'oauth_access_token_secret' => "kXnxEi04FwFqRlc75xBWnm0QMWZ67QNA2QpzSWItgBLmy",
-		    'consumer_key' => "DYyJiRspeTDEB5jwpnKA",
-		    'consumer_secret' => "3zqJbdGnzOcWz1FxvrPJLQbjQ3kKMrHfeFSJ4JeWjY"
+		    'oauth_access_token' => "ACCESS_TOKEN_HERE",
+		    'oauth_access_token_secret' => "ACCESS_TOKEN_SECRET_HERE",
+		    'consumer_key' => "CONSUMER_KEY_HERE",
+		    'consumer_secret' => "CONSUMER_SECRET_HERE"
 		);
 		if($_POST['geo2'] != null && $_POST['geo2'] != "")
 			$comparison = true;//LOCATION COMPARISON
